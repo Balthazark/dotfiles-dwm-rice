@@ -1,4 +1,4 @@
-# dotfiles-dwm-rice
+# dotfiles-hyprland-rice
 
 ## dependencies
 
