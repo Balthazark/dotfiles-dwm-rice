@@ -15,6 +15,42 @@ end
 -- For example, changing the color scheme:
 config.color_scheme = "Catppuccin Mocha"
 config.enable_wayland = true
+config.window_frame = {
+  inactive_titlebar_bg = '#11111b',
+  active_titlebar_bg = '#11111b',
+}
+config.colors = {
+  tab_bar = {
+    background = '#11111b',
+    active_tab = {
+      bg_color = '#1e1e2e',
+      fg_color = '#c0c0c0',
+      intensity = 'Normal',
+      underline = 'None',
+      italic = false,
+      strikethrough = false,
+    },
+    inactive_tab = {
+      bg_color = '#11111b',
+      fg_color = '#808080',
+    },
+    inactive_tab_hover = {
+      bg_color = '#45475a',
+      fg_color = '#909090',
+      italic = true,
+    },
+
+    new_tab = {
+      bg_color = '#1e1e2e',
+      fg_color = '#808080',
+    },
+    new_tab_hover = {
+      bg_color = '#45475a',
+      fg_color = '#909090',
+      italic = true,
+    },
+  },
+}
 
 -- and finally, return the configuration to wezterm
 return config
