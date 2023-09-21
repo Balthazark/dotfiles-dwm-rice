@@ -51,6 +51,7 @@ config.colors = {
     },
   },
 }
+config.font = wezterm.font 'JetBrains Mono'
 
 -- and finally, return the configuration to wezterm
-return config
+return config 
